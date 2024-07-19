@@ -15,7 +15,7 @@ const Welcome = () => {
       <button onClick={() => dispatch({ type: "CHANGE_STAGE" })}>
         Iniciar
       </button>
-      <img src={Quiz} alt="Início do Quiz" />
+      <img className="tImg" src={Quiz} alt="Início do Quiz" />
     </div>
   );
 };
